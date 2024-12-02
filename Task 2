@@ -1,0 +1,39 @@
+Task 2: Calculator
+
+Design a Simple Calculator program with basic Arithmetic Operation using python.
+Explanation:
+Functions:
+        Each arithmetic operation (addition, subtraction, multiplication, and division) is defined as a separate function (add(), subtract(), multiply(), divide()).
+The divide() function also checks if division by zero is attempted, in which case it returns an error message.
+
+User Input:
+        The program first asks the user to choose an operation by entering 1, 2, 3, or 4.
+Then, the program prompts the user to input two numbers (num1 and num2). The float() function is used to ensure that the numbers can be decimals as well.
+
+Calculation:
+        Depending on the operation chosen by the user, the corresponding arithmetic function is called, and the result is displayed.
+If an invalid operation is selected, or the user enters non-numeric input, an error message is displayed.
+Error Handling:
+        There's basic error handling for invalid numeric input using try-except blocks.
+If the user selects division (4) and tries to divide by zero, it displays an error message.
+Key Points Explained:
+Functions for Operations:
+
+Each operation (add, subtract, multiply, divide) is defined as a function that takes two parameters and returns the result.
+The divide function also checks for division by zero, which is an important edge case to handle.
+User Input Validation:
+
+try-except is used to handle invalid inputs for numbers, ensuring that the program doesn't crash when the user enters non-numeric values.
+Menu and Operations:
+
+The user is presented with a menu of choices (1, 2, 3, 4 for the operations and 5 to exit).
+Based on the user’s input, the corresponding arithmetic operation is performed, and the result is displayed.
+Error Handling:
+
+If the user enters an invalid operation choice (e.g., anything other than 1, 2, 3, 4, or 5), the program displays an error message.
+Division by zero is handled in the divide function to prevent runtime errors.
+Looping for Continuous Calculation:
+
+The program uses a while loop to allow the user to perform multiple calculations in one session.
+The loop exits when the user selects the 5 option to "Exit."
+
