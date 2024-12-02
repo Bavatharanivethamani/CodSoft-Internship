@@ -1,0 +1,27 @@
+Task 1 : TO-DO-LIST 
+
+Creating a To-Do List application in Python is a great project to help users manage and organize their tasks. Below, I will outline the steps for both a command-line and a GUI-based application using Python.
+
+1. Command-Line To-Do List Application (CLI)
+The command-line version of the To-Do List app allows users to interact with the app via text commands. You can use basic Python libraries to implement this.
+
+Features:
+    Add a task.
+    Remove a task.
+    Update a task.
+    View all tasks.
+    Mark a task as completed.
+    Save tasks to a file so that they persist across sessions.
+Steps to Create CLI To-Do List:
+1.Define the Task Class: A task can have attributes such as title, description, and status (e.g., "completed" or "not completed").
+2.Create Functions for Task Operations: These functions will allow the user to add, update, delete, and display tasks.
+3.Main Loop to Handle User Input: The main loop allows the user to interact with the application via a menu.
+
+Key Points:
+Task Class: 
+     The class encapsulates task attributes like title, description, and status.
+Task Operations:
+     Functions like add, update, delete, and mark as completed ensure the app remains interactive.
+GUI:
+     tkinter provides an intuitive interface for adding and managing tasks, along with buttons for easy interactions.
+
