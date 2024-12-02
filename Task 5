@@ -1,0 +1,35 @@
+Task 5: Contact Book.
+
+Key Features:
+Add Contact: Allows users to input new contact details.
+View Contact List: Displays all saved contacts, showing their names and phone numbers.
+Search Contact: Allows searching for contacts by name or phone number.
+Update Contact: Users can update details of existing contacts.
+Delete Contact: Users can delete a contact by name or phone number.
+User Interface: A simple command-line interface that provides instructions and feedback.
+Explanation of the Code:
+
+Contact Class:
+This class is used to store individual contact details (name, phone, email, address).
+The __str__ method allows us to format how the contact is displayed when printed.
+
+ContactManager Class:
+The ContactManager class is where all the main functionalities are implemented. It uses a dictionary (self.contacts) to store contacts, with the contact name as the key.
+add_contact: Adds a new contact by accepting user inputs.
+view_contacts: Displays all contacts stored in the system.
+search_contact: Allows the user to search for contacts by name or phone number.
+update_contact: Allows the user to update the details of an existing contact. If the user leaves any field blank, that detail remains unchanged.
+delete_contact: Allows the user to delete a contact by name.
+display_menu: Displays the available options for the user to choose from.
+run: Runs the main program loop, where users can select different actions from the menu.
+
+Main Program:
+     The program creates an instance of the ContactManager class and calls the run method to start the application.
+
+Features:
+Add Contact: Users can add new contacts with name, phone number, email, and address.
+View Contact List: Displays all saved contacts in the system.
+Search Contact: Users can search for contacts using name or phone number. The search is case-insensitive for names.
+Update Contact: Users can update any field of an existing contact. If no input is provided for a field, it remains unchanged.
+Delete Contact: Users can delete a contact by name.
+User-Friendly Menu: The menu is simple and displays clear options for the user to choose from.
