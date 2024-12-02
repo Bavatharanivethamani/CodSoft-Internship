@@ -1,0 +1,49 @@
+Task 4: Rock-Paper-Scissors Game.
+
+Key Features:
+User Input:
+Prompt the user to choose rock, paper, or scissors.
+Computer Selection:
+Generate a random choice (rock, paper, or scissors) for the computer.
+Game Logic:
+Determine the winner based on the user's and computer's choices.
+Display Result:
+Show both the user's and computer's choices and the result of the round (win, lose, or tie).
+Score Tracking:
+Keep track of the scores for the user and the computer across multiple rounds.
+Play Again:
+Ask the user if they want to play another round.
+User Interface:
+Provide a user-friendly interface with clear instructions and feedback.
+
+Explanation of the Code:
+Function: get_computer_choice():
+This function generates the computer's random choice between rock, paper, or scissors using random.choice().
+
+Function: determine_winner():
+This function compares the user's and computer's choices and returns the result:
+If both choices are the same, it's a tie.
+If the user wins (based on the rules), it returns "user".
+If the computer wins, it returns "computer".
+
+Function: play_round():
+The main logic for each round of the game is implemented here.
+The user is asked to input their choice, and the input is validated.
+The computer's choice is randomly selected.
+The winner is determined, and the result is displayed.
+
+Function: main():
+This function controls the flow of the game.
+It tracks the scores of both the user and the computer.
+After each round, the current scores are displayed.
+The user is prompted to play again, and if they choose not to, the game ends.
+Key Game Rules:
+Rock beats Scissors.
+Scissors beat Paper.
+Paper beats Rock.
+If both the user and computer select the same choice, it's a tie.
+
+Features:
+User Input Validation: If the user enters an invalid choice (not rock, paper, or scissors), the program will display an error and ask again.
+Score Tracking: The user's and computer's scores are updated after each round and displayed at the end of each game.
+Play Again: After each round, the user is asked if they want to play again. The game continues until the user chooses not to.
