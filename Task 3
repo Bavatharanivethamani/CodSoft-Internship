@@ -1,0 +1,32 @@
+Task 3: Password Generator.
+A password generator is a useful tool for generating strong, random passwords for users.
+
+Key Features:
+User Input: The user specifies the desired length of the password.
+Generate Password: The program uses a combination of random characters from various character sets (uppercase, lowercase, digits, and special characters) to generate the password.
+Display the Password: The generated password is displayed to the user.
+
+Explanation:
+Character Sets:
+string.ascii_lowercase: Lowercase alphabetic characters (a-z).
+string.ascii_uppercase: Uppercase alphabetic characters (A-Z).
+string.digits: Digits (0-9).
+string.punctuation: Special characters (!@#$%^&*() and others).
+
+Password Generation:
+The password is built by first selecting one character from each set to ensure the password has a mix of all types of characters.
+The remaining characters are randomly chosen from the combined set of all available characters to fill up the rest of the desired password length.
+Shuffling:
+
+The password list is shuffled to ensure that characters are not in the order they were selected, adding an extra layer of randomness.
+User Input:
+
+The program asks the user for the desired password length and ensures it’s at least 4 characters long for security reasons. It also handles invalid inputs with a try-except block to catch non-integer inputs.
+Output:
+
+After generating the password, it’s displayed on the screen.
+Sample Output:
+
+Welcome to the Password Generator!
+Enter the desired password length: 12
+Your generated password is: S3@wH%6bPb9e
